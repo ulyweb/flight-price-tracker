@@ -6,7 +6,7 @@ from email.mime.text import MIMEText
 from email.mime.multipart import MIMEMultipart
 
 # Load config
-with open("config.json") as f:
+with open(".config.json") as f:
     config = json.load(f)
 
 FROM = config["from_email"]
